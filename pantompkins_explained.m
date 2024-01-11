@@ -1,7 +1,3 @@
-% QRS Detection Example
-% shows the effect of each filter according to Pan-Tompkins algorithm.
-% Note that, the decision algorithm is different then the mentioned algorithm.
-% by Faruk UYSAL
 clc
 clear all
 close all
