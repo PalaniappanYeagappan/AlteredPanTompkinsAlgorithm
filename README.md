@@ -8,4 +8,4 @@ To analyse a QRS detection algorithm we use standard arrhythmia databases. The M
 
 In this modified algorithm the raw signal is first sent to a filter where its DC components are cancelled i.e. the DC offset is removed and then passed through a band-pass filter, derivative filter, squaring function. Before passing it to the integrator it is passed through an averaging filter in-order to increase the strength of the signal relative to noise that is obstructing it. Then it is passed through an Integrator and the R-peak is detected by the process of thresholding. The figure below shows the modified Pan-Tompkins algorithm employed in our work.
 
-!<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9177229/9182042/9182298/vishan2-ICCSP593-large.gif" width="400" height="300">
+!<img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9177229/9182042/9182298/vishan2-ICCSP593-large.gif" width="400" height="250">
